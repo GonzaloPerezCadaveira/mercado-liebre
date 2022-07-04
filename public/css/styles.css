@@ -1,0 +1,300 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.nbar {
+    list-style:none;
+    display: none;
+    
+}
+
+.nbar1 {
+    list-style:none;
+    display: none;
+    
+}
+.descripcionProductos {
+    list-style:none;
+    position: relative
+    
+}
+.tituloHeader{
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+   
+}
+.formatoHeader {
+    background-color: #EAC926;
+    font-family: "Roboto", sans-serif ;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formatoTitulares{
+    font-size: 24px;
+     
+}
+
+.precio{
+    font-size:18px;
+}
+
+.descuento{
+    font-size:16px;
+    color:green;
+    
+}
+
+.descripcion {
+    font-size:16px;
+    margin: 10% 0px 0px 0px;
+    color: grey;
+    display:none
+}
+
+.botonHamburguesa i { 
+background-color: #03264C;
+color: #FFF;
+font-size: 20px;
+
+}
+
+.formatoFooter{
+        font-size: 2em;
+        margin: 0px 0px 0px 10px;
+        text-align: center;
+        width: 90%;
+    }
+
+.centrarMain {
+    text-align: center;
+    width:90%; 
+}
+.centrarMain1 {
+    text-align: center;
+    width:90%; 
+}
+
+.cajaEspecifica {
+    border: solid 1px #ebebeb;
+    background-color: white;
+    width: 90%;
+    box-sizing: border-box;
+    list-style:none;
+    margin: 0px 0px 0px 5%;
+   
+}
+
+.cajaGeneral {
+    width: 111%;
+    background-color: #ebebeb;
+    box-sizing: border-box;
+}
+    
+
+
+.contenido {
+    text-align: center;
+}
+
+.camionVerde{
+    color:green;
+    background-color: white;
+    border-radius: 50%;
+   
+}
+
+.posicionamiento { 
+             position: absolute;
+             top: -40px;
+             right: 0px; }
+
+.estilo{
+    background-color: #ebebeb;
+}
+
+.centrarBoton {
+    width:100%;
+    text-align: center;
+}
+.busqueda {
+margin: 5% 0% 0% 0%;
+width: 51%;
+display:flex
+
+}
+.busqueda1{
+width: 90%;
+}
+.logo {
+    width: 49%;
+    margin: 5% 0% 0% 0%
+}
+
+@media (min-width: 361px) {
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+    .centrarMain {
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .centrarMain1 {
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .haciendoResponsive {
+        display: flex;
+        flex-wrap: wrap;
+        width: 40%;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+   
+    .formatoHeader {
+        display: flex;
+        
+    }
+    .busqueda {
+        margin: 7% 0% 0% 0%;
+        display: flex;
+        width: 33%;
+        flex-direction: row;
+        flex-basis: auto;
+        }
+
+    .logo {
+            width: 33%;
+            margin: 5% 0% 0% 0%;
+        }
+    .tituloHeader {
+            width: 33%;
+            margin: 8% 0% 0% 0%
+        }
+
+    .centrarBoton {
+    display: flex; 
+    
+    
+    
+    }
+    .descripcion {
+        display: block;
+    }
+
+    .nbar {
+        display:block; 
+        display: flex; 
+        padding: 0%;
+        flex-grow: 1;
+        
+        
+        
+    }
+    .nbar li {
+        display: flex;
+        margin: 1% 0% 0% 1%
+    }
+    
+    .nbar1 {
+        display:block;  
+        display: flex;
+        flex-grow: 1;
+        justify-content: flex-end;
+        
+       
+    }
+    .nbar1 li {
+        display:flex;
+        justify-content: flex-end;
+        margin: 1% 0% 0% 1%;
+       
+        
+
+    }
+    .botonHamburguesa {
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+        .centrarMain {
+            display:flex;
+            flex-wrap: wrap;
+        }
+    
+        .centrarMain1 {
+            display:flex;
+            flex-wrap: wrap;
+        }
+        .haciendoResponsive {
+            display: flex;
+            flex-wrap: wrap;
+            width: 20%;
+            margin-top: 5%;
+            margin-left: 5%;
+        }
+
+.descripcion {
+        display: block;
+    }
+.nbar {
+        display:block;
+        display: flex; 
+        padding: 0%;
+       
+    }
+.botonHamburguesa {
+        display: none;
+    }
+}
+
+.FormularioDeRegistro {
+    background-color: #ebebeb;
+    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    font-size: large;
+    
+}
+.centrar {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+.titulo{
+    background-color: #ebebeb;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+.Foto {
+    margin-left: 35%;
+}
+.logo1 {
+    width: 100%;
+}
+.body1{
+    background-color: #ebebeb;
+}
+.login {
+    background-color: #ebebeb;
+    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    font-size: xx-large
+}

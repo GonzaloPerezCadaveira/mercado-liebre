@@ -1,0 +1,76 @@
+<script src="https://kit.fontawesome.com/b8d968d2f1.js" crossorigin="anonymous"> </script>
+<link href= "./css/styles.css" rel = "stylesheet">
+<body class="body1">
+<header class="formatoHeader">
+    <img src='/images/logo-mercado-liebre.svg' class="logo1">
+<nav class="centrarBoton">
+    <ul class="nbar">
+    <li><a href = >Ofertas</a></li>
+    <li><a href = >Tiendas Oficiales</a></li>
+    <li><a href = >Vender</a></li>
+    <li><a href = >Ayuda</a></a></li>
+</ul>
+<ul class="nbar1">
+    <li><a href = "/register" > Crea tu cuenta <i class="fa-solid fa-id-card"> </i> </a> </li>
+    <li><a href = "/login">Ingresa <i class="fa-solid fa-right-to-bracket"> </i> </a> </li>
+    <li><a href = >Mis Compras <i class="fa-solid fa-basket-shopping"> </i></a> </li>
+    </ul>
+<div class = "botonHamburguesa">
+<button ><i class="fas fa-bars"></i> </button> 
+</div>
+</nav>
+</header> 
+<h1 class="titulo">Crea tu cuenta</h1>
+<form action = "/Crea tu cuenta" method="post">
+<div class = "FormularioDeRegistro">
+    <input class="centrar" type = "text" name = "nombre" placeholder="Nombre y apellido">
+    <br></br>
+    <input class="centrar" type = "text" name = "usuario" placeholder="Nombre de usuario">
+    <br></br>
+    <label>Fecha de nacimiento</label>
+    <input class="centrar" type = "date" name = "cumpleaños" value=1930-01-01 min=1930-01-01 max= 2022-01-01> 
+    <br></br>
+    <input class="centrar" type = "text" name = "direccion" placeholder="Domicilio" >
+    <br></br>
+    <label class ="perfil">Perfil del usuario</label>
+    <input type= "radio" name= "perfil"> comprador 
+    <input type= "radio" name= "perfil"> vendedor 
+    <br></br>
+    <label>Categorias de interes </label>
+    <select class="centrar">
+    <option class="centrar" value = "electro"> electro</option>
+    <option class="centrar"  value = "moda">moda</option>
+    <option class="centrar"  value = "hogar"> hogar</option>
+    <option class="centrar"  value = "hogar"> hogar</option>
+    <option class="centrar"  value = "hogar"> hogar</option>
+    <option  value = "juguetería">jugueteria </option>
+    <option value = "Vida Sana"> vida sana</option> </select>
+    <br></br>
+    <label>Foto de usuario</label>
+    <br> </br>
+    <input class= "Foto" type = "file" name = "Foto">
+    <br></br>
+    <input class="centrar" type = "password" name = "contraseña" placeholder= "Contraseña">
+    <br></br>
+    <input class="centrar" type = "passaword" name = "contraseña" placeholder= "Confirmar Contraseña" >
+    <p class="button"><input type="submit" name="enviar"></p>
+</div> </form>
+<footer class = contenido>    
+    <ul>
+        <div class = "formatoFooter"> <i class="fa-solid fa-credit-card"></i> </div>
+        <li class="sinPuntos"> Paga con tarjeta o efectivo
+            <p class="sinPuntos"> Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                puntos de pago. ¡Y siempre es seguro!</p>
+        </li>
+        <div class = "formatoFooter"> <i class="fa-solid fa-gift"> </i> </div>
+        <li class="sinPuntos"> Envío gratis desde $ 2.500
+            <p class="sinPuntos"> Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                productos. Es un beneficio de Mercado Puntos.</p>
+        </li>
+        <div class = "formatoFooter"> <i  class="fa-solid fa-user-shield" > </i></div>
+        <li class="sinPuntos"> Seguridad, de principio a fin <p> ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no
+            puedas hacer,porque estás siempre protegid@.</p>
+        <li class="sinPuntos"> Copyright © 1999-2020 MercadoLiebre S.R.L. </li>
+    </ul>
+</footer>
+</body>
